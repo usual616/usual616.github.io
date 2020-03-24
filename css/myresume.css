@@ -1,0 +1,136 @@
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans TC', sans-serif;
+	text-transform: none;
+}
+
+.subheading {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	text-transform: none;
+	letter-spacing: -0.05rem;
+}
+
+h1 .text-primary {
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	line-height: 3rem;
+}
+
+.bg-primary {
+	background-color: #ff8888!important;
+	background-image: url("img/otis-redding.png");
+}
+
+.text-primary {
+	color: #FF8888!important;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	text-transform: none;
+}
+
+a {
+	color: #FF8888;
+}
+
+a:active, a:focus, a:hover {
+	color: #FF8888;
+}
+
+.social-icons a:hover {
+	background-color: #FF8888;
+}
+
+.dev-icons .list-inline-item i:hover {
+    color: #FF8888;
+}
+
+.graph_set {
+	margin-top: 3rem;
+}
+
+.small-text {
+	font-size: 1.2rem;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  background-color: #FF8888;
+  position: absolute;
+  width: 6px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline-block {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-block::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #FF8888;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.timeline-left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.timeline-right {
+  left: 50%;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline-right::after {
+  left: -12px;
+}
+
+/* Media queries - Responsive timeline on screens less than 992px wide */
+@media screen and (max-width: 992px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .timeline-block {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .timeline-right {
+    left: 0%;
+  }
+  
+  /* Make sure all circles are at the same spot */
+  .timeline-left::after, .timeline-right::after {
+    left: 17px;
+  }
+}
+
