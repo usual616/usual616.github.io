@@ -17,11 +17,11 @@
 .w-100 { position:relative; }
 i:hover:after{
     content:attr(showhints);
-    position:absolute;    margin:50px auto;
+    position:absolute;    margin:50px auto; left:0;
     font-size: 16px; font-family: 微軟正黑體;
     max-width:400px; height: auto;
     text-align: left;    background: #b3d7ff; color: #000;
-    padding-bottom: 6px; padding-top: 6px;
+    padding:6px 6px;;
     border-radius: 6px;
     z-index: 999;
 }
