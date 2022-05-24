@@ -87,7 +87,7 @@ p.lead {
 }
 
 .dep { position:relative; }
-span:hover:after{
+i:hover:after{
     content:attr(showhints);
     position:absolute;    margin:0px auto;
     font-size: 16px; font-family: 微軟正黑體;
