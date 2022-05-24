@@ -97,10 +97,10 @@ ul li .dev-icons .list-inline-item i:hover {
 .w-100 { position:relative; }
 i:hover:after{
     content:attr(showhints);
-    position:absolute;    margin:0px auto;
+    position:absolute;    margin:50px auto;
     font-size: 16px; font-family: 微軟正黑體;
     max-width:400px; height: auto;
-    text-align: left;    background: #EDC200; color: #000;
+    text-align: left;    background: #b3d7ff; color: #000;
     padding-bottom: 6px; padding-top: 6px;
     border-radius: 6px;
     z-index: 999;
