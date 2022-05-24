@@ -75,12 +75,15 @@ p.lead {
   background-color: #BD5D38;
 }
 
+
+
 .dev-icons {
   font-size: 3rem;
 }
 
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
+  font-size: 16px;    width: 50%;    display: inline-block;    vertical-align: top;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
