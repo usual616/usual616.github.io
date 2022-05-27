@@ -70,25 +70,6 @@ p.lead {
   }
 }
 
-.w-100 ul li {
-    list-style: none;
-    line-height: 180%;
-    height: auto;
-    border-bottom: 1px solid #EEE;
-    margin-bottom: 10px;
-    clear: both;
-}
-.w-100 { position:relative; }
-i:hover:after{
-    content:attr(showhints);
-    position:absolute;    margin:50px auto;
-    font-size: 16px; font-family: 微軟正黑體;
-    max-width:400px; height: auto;
-    text-align: left;    background: #b3d7ff; color: #000;
-    padding-bottom: 6px; padding-top: 6px;
-    border-radius: 6px;
-    z-index: 999;
-}
 
 .dev-icons {
   font-size: 3rem;
