@@ -53,10 +53,10 @@ a:active, a:focus, a:hover {
     margin-bottom: 10px;
     clear: both;
 }
-.w-100 { position:relative; }
+.w-100 #Skills{ position:relative; }
 i:hover:after{
     content:attr(showhints);
-    position:absolute;    margin:50px auto;
+    position:absolute;    margin:50px -1rem;
     font-size: 16px; font-family: 微軟正黑體;
     max-width:400px; height: auto;
     text-align: left;    background: #b3d7ff; color: #000;
